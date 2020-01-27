@@ -47,7 +47,7 @@ workflows:
   RestAssuredTest:
     triggers: #Scheduled build
       - schedule:
-          cron: "0 * * * *" 
+          cron: "27 * * * *" 
           filters:
             branches:
               only:
