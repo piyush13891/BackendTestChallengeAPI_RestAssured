@@ -19,7 +19,7 @@ public class PropertyFileReader {
 	public static PropertyFilePojo getPropertyData() {
 		Yaml yaml = new Yaml();
 		PropertyFilePojo property = null;
-		String filePath=".\\src\\test\\resources\\properties.yaml";
+		String filePath=".//src//test//resources//properties.yaml";
 		
 		try {			
 			File file = new File(filePath);
