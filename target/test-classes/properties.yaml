@@ -1,6 +1,6 @@
 --- 
 apis: 
   homeurl: "http://jsonplaceholder.typicode.com"
-  users: /users1
+  users: /users
   comments: /comments
   posts: /posts  
