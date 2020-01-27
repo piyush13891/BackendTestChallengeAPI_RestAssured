@@ -41,16 +41,3 @@ jobs:
           path: target/API-output.log
       - store_artifacts: 
           path: target/surefire-reports
-
-workflows:
-  version: 2
-  RestAssuredTest:
-    triggers: #Scheduled build
-      - schedule:
-          cron: "52 * * * *" 
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      - build
