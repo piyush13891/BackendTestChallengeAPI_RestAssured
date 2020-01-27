@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[************ STARTING EXECUTION OF TEST  IntegrationTests ************<br>]]>
+    </line>
+    <line>
+      <![CDATA[Setting up base for the test]]>
+    </line>
+    <line>
+      <![CDATA[************ STARTING EXECUTION OF TEST METHOD  testValidateCommentsEmailByUserName ************<br>]]>
+    </line>
+    <line>
+      <![CDATA[| Single user details retrieved |]]>
+    </line>
+    <line>
+      <![CDATA[| postIds details retrieved |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving CommentIds for PostID |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving CommentIds for PostID |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving CommentIds for PostID |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving CommentIds for PostID |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving CommentIds for PostID |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving CommentIds for PostID |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving CommentIds for PostID |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving CommentIds for PostID |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving CommentIds for PostID |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving CommentIds for PostID |]]>
+    </line>
+    <line>
+      <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+    </line>
+    <line>
+      <![CDATA[************ FINISHED EXECUTION OF TEST METHOD  testValidateCommentsEmailByUserName ************<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Integration Test Suite" duration-ms="22906" started-at="2020-01-27T18:28:02Z" finished-at="2020-01-27T18:28:25Z">
+    <groups>
+    </groups>
+    <test name="IntegrationTests" duration-ms="22906" started-at="2020-01-27T18:28:02Z" finished-at="2020-01-27T18:28:25Z">
+      <class name="com.testcases.integrationTests.IntegrationTestsCommentsValidations">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testcases.integrationTests.IntegrationTestsCommentsValidations@7b49cea0]" name="setUp" is-config="true" duration-ms="542" started-at="2020-01-27T18:28:02Z" finished-at="2020-01-27T18:28:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up base for the test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testValidateCommentsEmailByUserName(com.data.yaml.YamlTestDataForUsersAPI1)[pri:0, instance:com.testcases.integrationTests.IntegrationTestsCommentsValidations@7b49cea0]" name="testValidateCommentsEmailByUserName" duration-ms="22318" started-at="2020-01-27T18:28:03Z" data-provider="common_test_data_provider" finished-at="2020-01-27T18:28:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YamlTestDataForAPI2 [user=Samantha]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[************ STARTING EXECUTION OF TEST METHOD  testValidateCommentsEmailByUserName ************<br>]]>
+            </line>
+            <line>
+              <![CDATA[| Single user details retrieved |]]>
+            </line>
+            <line>
+              <![CDATA[| postIds details retrieved |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving CommentIds for PostID |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving CommentIds for PostID |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving CommentIds for PostID |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving CommentIds for PostID |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving CommentIds for PostID |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving CommentIds for PostID |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving CommentIds for PostID |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving CommentIds for PostID |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving CommentIds for PostID |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving CommentIds for PostID |]]>
+            </line>
+            <line>
+              <![CDATA[| Retrieving and Validating emails for comment Ids |]]>
+            </line>
+            <line>
+              <![CDATA[************ FINISHED EXECUTION OF TEST METHOD  testValidateCommentsEmailByUserName ************<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidateCommentsEmailByUserName -->
+      </class> <!-- com.testcases.integrationTests.IntegrationTestsCommentsValidations -->
+    </test> <!-- IntegrationTests -->
+  </suite> <!-- Integration Test Suite -->
+</testng-results>

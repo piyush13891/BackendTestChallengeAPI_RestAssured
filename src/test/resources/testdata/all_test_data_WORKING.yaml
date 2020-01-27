@@ -1,0 +1,10 @@
+!!com.data.yaml.AllTestCaseData
+allTestCaseDataMap:
+  testSinglePhotoCase1:
+  - !!com.data.yaml.YamlTestDataForAPI1 {photoId: 5}
+  - !!com.data.yaml.YamlTestDataForAPI1 {photoId: 6}
+  - !!com.data.yaml.YamlTestDataForAPI1 {photoId: 7}
+
+  testValidateCommentsEmailByUserName:
+  - !!com.data.yaml.YamlTestDataForUsersAPI {user: 20}
+  - !!com.data.yaml.YamlTestDataForUsersAPI {user: 21}

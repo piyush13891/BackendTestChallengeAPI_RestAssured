@@ -1,0 +1,13 @@
+!!com.data.yaml.AllTestCaseData
+allTestCaseDataMap:
+  testValidateCommentsEmailByUserName:
+  - !!com.data.yaml.YamlTestDataForUsersAPI1 {user: Samantha}
+
+  testValidateUserNotExist:
+  - !!com.data.yaml.YamlTestDataForUsersAPI2 {userId: 15}
+
+  testValidatePostNotExist:
+  - !!com.data.yaml.YamlTestDataForPostsAPI1 {postId: 1101}
+
+  testValidateCommentNotExist:
+  - !!com.data.yaml.YamlTestDataForCommentsAPI1 {commentId: 1101}

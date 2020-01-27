@@ -1,0 +1,1407 @@
+2020-01-27 23:58:02 INFO  RATestListener:45 - ************ STARTING EXECUTION OF TEST IntegrationTests ************
+2020-01-27 23:58:03 INFO  DataProviderClass:31 - Test data file path - .\src\test\resources\testdata\all_test_data.yaml
+2020-01-27 23:58:03 INFO  RATestListener:14 - ************ STARTING EXECUTION OF TEST METHOD  testValidateCommentsEmailByUserName ************
+2020-01-27 23:58:03 INFO  UserBusinessLogic:26 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:03 INFO  UserBusinessLogic:35 - Request URI : http://jsonplaceholder.typicode.com/users?username=Samantha
+2020-01-27 23:58:03 INFO  UserBusinessLogic:36 - Request Query Parameters : {username=Samantha}
+2020-01-27 23:58:03 INFO  UserBusinessLogic:37 - Request Body : null
+2020-01-27 23:58:04 INFO  UserBusinessLogic:42 - Response Data : [
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  }
+]
+2020-01-27 23:58:04 INFO  UserBusinessLogic:55 - Response code for the request - 200
+2020-01-27 23:58:05 INFO  UserBusinessLogic:64 - Retrieved User details - [Lcom.pojos.SingleUser;@273c947f
+2020-01-27 23:58:05 INFO  IntegrationTestsCommentsValidations:40 - Single user detail retrieved.
+2020-01-27 23:58:05 INFO  IntegrationTestsCommentsValidations:45 - UserId for the username Samantha is 3
+2020-01-27 23:58:05 INFO  PostsBusinessLogic:29 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:05 INFO  PostsBusinessLogic:37 - Request URI : http://jsonplaceholder.typicode.com/posts?userId=3
+2020-01-27 23:58:05 INFO  PostsBusinessLogic:38 - Request Query Parameters : {userId=3}
+2020-01-27 23:58:05 INFO  PostsBusinessLogic:39 - Request Body : null
+2020-01-27 23:58:05 INFO  PostsBusinessLogic:44 - Response Data : [
+  {
+    "userId": 3,
+    "id": 21,
+    "title": "asperiores ea ipsam voluptatibus modi minima quia sint",
+    "body": "repellat aliquid praesentium dolorem quo\nsed totam minus non itaque\nnihil labore molestiae sunt dolor eveniet hic recusandae veniam\ntempora et tenetur expedita sunt"
+  },
+  {
+    "userId": 3,
+    "id": 22,
+    "title": "dolor sint quo a velit explicabo quia nam",
+    "body": "eos qui et ipsum ipsam suscipit aut\nsed omnis non odio\nexpedita earum mollitia molestiae aut atque rem suscipit\nnam impedit esse"
+  },
+  {
+    "userId": 3,
+    "id": 23,
+    "title": "maxime id vitae nihil numquam",
+    "body": "veritatis unde neque eligendi\nquae quod architecto quo neque vitae\nest illo sit tempora doloremque fugit quod\net et vel beatae sequi ullam sed tenetur perspiciatis"
+  },
+  {
+    "userId": 3,
+    "id": 24,
+    "title": "autem hic labore sunt dolores incidunt",
+    "body": "enim et ex nulla\nomnis voluptas quia qui\nvoluptatem consequatur numquam aliquam sunt\ntotam recusandae id dignissimos aut sed asperiores deserunt"
+  },
+  {
+    "userId": 3,
+    "id": 25,
+    "title": "rem alias distinctio quo quis",
+    "body": "ullam consequatur ut\nomnis quis sit vel consequuntur\nipsa eligendi ipsum molestiae et omnis error nostrum\nmolestiae illo tempore quia et distinctio"
+  },
+  {
+    "userId": 3,
+    "id": 26,
+    "title": "est et quae odit qui non",
+    "body": "similique esse doloribus nihil accusamus\nomnis dolorem fuga consequuntur reprehenderit fugit recusandae temporibus\nperspiciatis cum ut laudantium\nomnis aut molestiae vel vero"
+  },
+  {
+    "userId": 3,
+    "id": 27,
+    "title": "quasi id et eos tenetur aut quo autem",
+    "body": "eum sed dolores ipsam sint possimus debitis occaecati\ndebitis qui qui et\nut placeat enim earum aut odit facilis\nconsequatur suscipit necessitatibus rerum sed inventore temporibus consequatur"
+  },
+  {
+    "userId": 3,
+    "id": 28,
+    "title": "delectus ullam et corporis nulla voluptas sequi",
+    "body": "non et quaerat ex quae ad maiores\nmaiores recusandae totam aut blanditiis mollitia quas illo\nut voluptatibus voluptatem\nsimilique nostrum eum"
+  },
+  {
+    "userId": 3,
+    "id": 29,
+    "title": "iusto eius quod necessitatibus culpa ea",
+    "body": "odit magnam ut saepe sed non qui\ntempora atque nihil\naccusamus illum doloribus illo dolor\neligendi repudiandae odit magni similique sed cum maiores"
+  },
+  {
+    "userId": 3,
+    "id": 30,
+    "title": "a quo magni similique perferendis",
+    "body": "alias dolor cumque\nimpedit blanditiis non eveniet odio maxime\nblanditiis amet eius quis tempora quia autem rem\na provident perspiciatis quia"
+  }
+]
+2020-01-27 23:58:05 INFO  PostsBusinessLogic:58 - Response code for the request - 200
+2020-01-27 23:58:05 INFO  PostsBusinessLogic:68 - Posts Ids for the userId - 3 is/are [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+2020-01-27 23:58:05 INFO  IntegrationTestsCommentsValidations:49 - postIds detail retrieved.
+2020-01-27 23:58:05 INFO  IntegrationTestsCommentsValidations:60 - Retrieving CommentIds for PostID - 21
+2020-01-27 23:58:05 INFO  CommentsBusinessLogic:86 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:05 INFO  CommentsBusinessLogic:94 - Request URI : http://jsonplaceholder.typicode.com/comments?postId=21
+2020-01-27 23:58:05 INFO  CommentsBusinessLogic:95 - Request Query Parameters : {postId=21}
+2020-01-27 23:58:05 INFO  CommentsBusinessLogic:96 - Request Body : null
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:101 - Response Data : [
+  {
+    "postId": 21,
+    "id": 101,
+    "name": "perspiciatis magnam ut eum autem similique explicabo expedita",
+    "email": "Lura@rod.tv",
+    "body": "ut aut maxime officia sed aliquam et magni autem\nveniam repudiandae nostrum odio enim eum optio aut\nomnis illo quasi quibusdam inventore explicabo\nreprehenderit dolor saepe possimus molestiae"
+  },
+  {
+    "postId": 21,
+    "id": 102,
+    "name": "officia ullam ut neque earum ipsa et fuga",
+    "email": "Lottie.Zieme@ruben.us",
+    "body": "aut dolorem quos ut non\naliquam unde iure minima quod ullam qui\nfugiat molestiae tempora voluptate vel labore\nsaepe animi et vitae numquam ipsa"
+  },
+  {
+    "postId": 21,
+    "id": 103,
+    "name": "ipsum a ut",
+    "email": "Winona_Price@jevon.me",
+    "body": "totam eum fugiat repellendus\nquae beatae explicabo excepturi iusto et\nrepellat alias iure voluptates consequatur sequi minus\nsed maxime unde"
+  },
+  {
+    "postId": 21,
+    "id": 104,
+    "name": "a assumenda totam",
+    "email": "Gabriel@oceane.biz",
+    "body": "qui aperiam labore animi magnam odit est\nut autem eaque ea magni quas voluptatem\ndoloribus vel voluptatem nostrum ut debitis enim quaerat\nut esse eveniet aut"
+  },
+  {
+    "postId": 21,
+    "id": 105,
+    "name": "voluptatem repellat est",
+    "email": "Adolph.Ondricka@mozell.co.uk",
+    "body": "ut rerum illum error at inventore ab nobis molestiae\nipsa architecto temporibus non aliquam aspernatur omnis quidem aliquid\nconsequatur non et expedita cumque voluptates ipsam quia\nblanditiis libero itaque sed iusto at"
+  }
+]
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:114 - Response code for the request - 200
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:123 - Comment Ids of the PostId - 21 is/are [101, 102, 103, 104, 105]
+2020-01-27 23:58:06 INFO  IntegrationTestsCommentsValidations:65 - CommentIds detail retrieved.
+2020-01-27 23:58:06 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 101
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=101
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=101}
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 21,
+    "id": 101,
+    "name": "perspiciatis magnam ut eum autem similique explicabo expedita",
+    "email": "Lura@rod.tv",
+    "body": "ut aut maxime officia sed aliquam et magni autem\nveniam repudiandae nostrum odio enim eum optio aut\nomnis illo quasi quibusdam inventore explicabo\nreprehenderit dolor saepe possimus molestiae"
+  }
+]
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 101 is/are Lura@rod.tv
+2020-01-27 23:58:06 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 101 is Valid - Lura@rod.tv
+2020-01-27 23:58:06 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 102
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=102
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=102}
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 21,
+    "id": 102,
+    "name": "officia ullam ut neque earum ipsa et fuga",
+    "email": "Lottie.Zieme@ruben.us",
+    "body": "aut dolorem quos ut non\naliquam unde iure minima quod ullam qui\nfugiat molestiae tempora voluptate vel labore\nsaepe animi et vitae numquam ipsa"
+  }
+]
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 102 is/are Lottie.Zieme@ruben.us
+2020-01-27 23:58:06 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 102 is Valid - Lottie.Zieme@ruben.us
+2020-01-27 23:58:06 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 103
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=103
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=103}
+2020-01-27 23:58:06 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 21,
+    "id": 103,
+    "name": "ipsum a ut",
+    "email": "Winona_Price@jevon.me",
+    "body": "totam eum fugiat repellendus\nquae beatae explicabo excepturi iusto et\nrepellat alias iure voluptates consequatur sequi minus\nsed maxime unde"
+  }
+]
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 103 is/are Winona_Price@jevon.me
+2020-01-27 23:58:07 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 103 is Valid - Winona_Price@jevon.me
+2020-01-27 23:58:07 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 104
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=104
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=104}
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 21,
+    "id": 104,
+    "name": "a assumenda totam",
+    "email": "Gabriel@oceane.biz",
+    "body": "qui aperiam labore animi magnam odit est\nut autem eaque ea magni quas voluptatem\ndoloribus vel voluptatem nostrum ut debitis enim quaerat\nut esse eveniet aut"
+  }
+]
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 104 is/are Gabriel@oceane.biz
+2020-01-27 23:58:07 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 104 is Valid - Gabriel@oceane.biz
+2020-01-27 23:58:07 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 105
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=105
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=105}
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 21,
+    "id": 105,
+    "name": "voluptatem repellat est",
+    "email": "Adolph.Ondricka@mozell.co.uk",
+    "body": "ut rerum illum error at inventore ab nobis molestiae\nipsa architecto temporibus non aliquam aspernatur omnis quidem aliquid\nconsequatur non et expedita cumque voluptates ipsam quia\nblanditiis libero itaque sed iusto at"
+  }
+]
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 105 is/are Adolph.Ondricka@mozell.co.uk
+2020-01-27 23:58:07 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 105 is Valid - Adolph.Ondricka@mozell.co.uk
+2020-01-27 23:58:07 INFO  IntegrationTestsCommentsValidations:60 - Retrieving CommentIds for PostID - 22
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:86 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:94 - Request URI : http://jsonplaceholder.typicode.com/comments?postId=22
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:95 - Request Query Parameters : {postId=22}
+2020-01-27 23:58:07 INFO  CommentsBusinessLogic:96 - Request Body : null
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:101 - Response Data : [
+  {
+    "postId": 22,
+    "id": 106,
+    "name": "maiores placeat facere quam pariatur",
+    "email": "Allen@richard.biz",
+    "body": "dolores debitis voluptatem ab hic\nmagnam alias qui est sunt\net porro velit et repellendus occaecati est\nsequi quia odio deleniti illum"
+  },
+  {
+    "postId": 22,
+    "id": 107,
+    "name": "in ipsam vel id impedit possimus eos voluptate",
+    "email": "Nicholaus@mikayla.ca",
+    "body": "eveniet fugit qui\nporro eaque dolores eos adipisci dolores ut\nfugit perferendis pariatur\nnumquam et repellat occaecati atque ipsum neque"
+  },
+  {
+    "postId": 22,
+    "id": 108,
+    "name": "ut veritatis corporis placeat suscipit consequatur quaerat",
+    "email": "Kayla@susanna.org",
+    "body": "at a vel sequi nostrum\nharum nam nihil\ncumque aut in dolore rerum ipsa hic ratione\nrerum cum ratione provident labore ad quisquam repellendus a"
+  },
+  {
+    "postId": 22,
+    "id": 109,
+    "name": "eveniet ut similique accusantium qui dignissimos",
+    "email": "Gideon@amina.name",
+    "body": "aliquid qui dolorem deserunt aperiam natus corporis eligendi neque\nat et sunt aut qui\nillum repellat qui excepturi laborum facilis aut omnis consequatur\net aut optio ipsa nisi enim"
+  },
+  {
+    "postId": 22,
+    "id": 110,
+    "name": "sint est odit officiis similique aut corrupti quas autem",
+    "email": "Cassidy@maribel.io",
+    "body": "cum sequi in eligendi id eaque\ndolores accusamus dolorem eum est voluptatem quisquam tempore\nin voluptas enim voluptatem asperiores voluptatibus\neius quo quos quasi voluptas earum ut necessitatibus"
+  }
+]
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:114 - Response code for the request - 200
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:123 - Comment Ids of the PostId - 22 is/are [106, 107, 108, 109, 110]
+2020-01-27 23:58:08 INFO  IntegrationTestsCommentsValidations:65 - CommentIds detail retrieved.
+2020-01-27 23:58:08 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 106
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=106
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=106}
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 22,
+    "id": 106,
+    "name": "maiores placeat facere quam pariatur",
+    "email": "Allen@richard.biz",
+    "body": "dolores debitis voluptatem ab hic\nmagnam alias qui est sunt\net porro velit et repellendus occaecati est\nsequi quia odio deleniti illum"
+  }
+]
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 106 is/are Allen@richard.biz
+2020-01-27 23:58:08 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 106 is Valid - Allen@richard.biz
+2020-01-27 23:58:08 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 107
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=107
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=107}
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 22,
+    "id": 107,
+    "name": "in ipsam vel id impedit possimus eos voluptate",
+    "email": "Nicholaus@mikayla.ca",
+    "body": "eveniet fugit qui\nporro eaque dolores eos adipisci dolores ut\nfugit perferendis pariatur\nnumquam et repellat occaecati atque ipsum neque"
+  }
+]
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 107 is/are Nicholaus@mikayla.ca
+2020-01-27 23:58:08 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 107 is Valid - Nicholaus@mikayla.ca
+2020-01-27 23:58:08 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 108
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=108
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=108}
+2020-01-27 23:58:08 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 22,
+    "id": 108,
+    "name": "ut veritatis corporis placeat suscipit consequatur quaerat",
+    "email": "Kayla@susanna.org",
+    "body": "at a vel sequi nostrum\nharum nam nihil\ncumque aut in dolore rerum ipsa hic ratione\nrerum cum ratione provident labore ad quisquam repellendus a"
+  }
+]
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 108 is/are Kayla@susanna.org
+2020-01-27 23:58:09 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 108 is Valid - Kayla@susanna.org
+2020-01-27 23:58:09 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 109
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=109
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=109}
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 22,
+    "id": 109,
+    "name": "eveniet ut similique accusantium qui dignissimos",
+    "email": "Gideon@amina.name",
+    "body": "aliquid qui dolorem deserunt aperiam natus corporis eligendi neque\nat et sunt aut qui\nillum repellat qui excepturi laborum facilis aut omnis consequatur\net aut optio ipsa nisi enim"
+  }
+]
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 109 is/are Gideon@amina.name
+2020-01-27 23:58:09 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 109 is Valid - Gideon@amina.name
+2020-01-27 23:58:09 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 110
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=110
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=110}
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 22,
+    "id": 110,
+    "name": "sint est odit officiis similique aut corrupti quas autem",
+    "email": "Cassidy@maribel.io",
+    "body": "cum sequi in eligendi id eaque\ndolores accusamus dolorem eum est voluptatem quisquam tempore\nin voluptas enim voluptatem asperiores voluptatibus\neius quo quos quasi voluptas earum ut necessitatibus"
+  }
+]
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 110 is/are Cassidy@maribel.io
+2020-01-27 23:58:09 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 110 is Valid - Cassidy@maribel.io
+2020-01-27 23:58:09 INFO  IntegrationTestsCommentsValidations:60 - Retrieving CommentIds for PostID - 23
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:86 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:94 - Request URI : http://jsonplaceholder.typicode.com/comments?postId=23
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:95 - Request Query Parameters : {postId=23}
+2020-01-27 23:58:09 INFO  CommentsBusinessLogic:96 - Request Body : null
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:101 - Response Data : [
+  {
+    "postId": 23,
+    "id": 111,
+    "name": "possimus facilis deleniti nemo atque voluptate",
+    "email": "Stefan.Crist@duane.ca",
+    "body": "ullam autem et\naccusantium quod sequi similique soluta explicabo ipsa\neius ratione quisquam sed et excepturi occaecati pariatur\nmolestiae ut reiciendis eum voluptatem sed"
+  },
+  {
+    "postId": 23,
+    "id": 112,
+    "name": "dolore aut aspernatur est voluptate quia ipsam",
+    "email": "Aniyah.Ortiz@monte.me",
+    "body": "ut tempora deleniti quo molestiae eveniet provident earum occaecati\nest nesciunt ut pariatur ipsa voluptas voluptatem aperiam\nqui deleniti quibusdam voluptas molestiae facilis id iusto similique\ntempora aut qui"
+  },
+  {
+    "postId": 23,
+    "id": 113,
+    "name": "sint quo debitis deleniti repellat",
+    "email": "Laverna@rico.biz",
+    "body": "voluptatem sint quia modi accusantium alias\nrecusandae rerum voluptatem aut sit et ut magnam\nvoluptas rerum odio quo labore voluptatem facere consequuntur\nut sit voluptatum hic distinctio"
+  },
+  {
+    "postId": 23,
+    "id": 114,
+    "name": "optio et sunt non",
+    "email": "Derek@hildegard.net",
+    "body": "nihil labore qui\nquis dolor eveniet iste numquam\nporro velit incidunt\nlaboriosam asperiores aliquam facilis in et voluptas eveniet quasi"
+  },
+  {
+    "postId": 23,
+    "id": 115,
+    "name": "occaecati dolorem eum in veniam quia quo reiciendis",
+    "email": "Tyrell@abdullah.ca",
+    "body": "laudantium tempore aut\nmaiores laborum fugit qui suscipit hic sint officiis corrupti\nofficiis eum optio cumque fuga sed voluptatibus similique\nsit consequuntur rerum commodi"
+  }
+]
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:114 - Response code for the request - 200
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:123 - Comment Ids of the PostId - 23 is/are [111, 112, 113, 114, 115]
+2020-01-27 23:58:10 INFO  IntegrationTestsCommentsValidations:65 - CommentIds detail retrieved.
+2020-01-27 23:58:10 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 111
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=111
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=111}
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 23,
+    "id": 111,
+    "name": "possimus facilis deleniti nemo atque voluptate",
+    "email": "Stefan.Crist@duane.ca",
+    "body": "ullam autem et\naccusantium quod sequi similique soluta explicabo ipsa\neius ratione quisquam sed et excepturi occaecati pariatur\nmolestiae ut reiciendis eum voluptatem sed"
+  }
+]
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 111 is/are Stefan.Crist@duane.ca
+2020-01-27 23:58:10 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 111 is Valid - Stefan.Crist@duane.ca
+2020-01-27 23:58:10 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 112
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=112
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=112}
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 23,
+    "id": 112,
+    "name": "dolore aut aspernatur est voluptate quia ipsam",
+    "email": "Aniyah.Ortiz@monte.me",
+    "body": "ut tempora deleniti quo molestiae eveniet provident earum occaecati\nest nesciunt ut pariatur ipsa voluptas voluptatem aperiam\nqui deleniti quibusdam voluptas molestiae facilis id iusto similique\ntempora aut qui"
+  }
+]
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 112 is/are Aniyah.Ortiz@monte.me
+2020-01-27 23:58:10 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 112 is Valid - Aniyah.Ortiz@monte.me
+2020-01-27 23:58:10 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 113
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=113
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=113}
+2020-01-27 23:58:10 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 23,
+    "id": 113,
+    "name": "sint quo debitis deleniti repellat",
+    "email": "Laverna@rico.biz",
+    "body": "voluptatem sint quia modi accusantium alias\nrecusandae rerum voluptatem aut sit et ut magnam\nvoluptas rerum odio quo labore voluptatem facere consequuntur\nut sit voluptatum hic distinctio"
+  }
+]
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 113 is/are Laverna@rico.biz
+2020-01-27 23:58:11 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 113 is Valid - Laverna@rico.biz
+2020-01-27 23:58:11 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 114
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=114
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=114}
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 23,
+    "id": 114,
+    "name": "optio et sunt non",
+    "email": "Derek@hildegard.net",
+    "body": "nihil labore qui\nquis dolor eveniet iste numquam\nporro velit incidunt\nlaboriosam asperiores aliquam facilis in et voluptas eveniet quasi"
+  }
+]
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 114 is/are Derek@hildegard.net
+2020-01-27 23:58:11 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 114 is Valid - Derek@hildegard.net
+2020-01-27 23:58:11 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 115
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=115
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=115}
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 23,
+    "id": 115,
+    "name": "occaecati dolorem eum in veniam quia quo reiciendis",
+    "email": "Tyrell@abdullah.ca",
+    "body": "laudantium tempore aut\nmaiores laborum fugit qui suscipit hic sint officiis corrupti\nofficiis eum optio cumque fuga sed voluptatibus similique\nsit consequuntur rerum commodi"
+  }
+]
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 115 is/are Tyrell@abdullah.ca
+2020-01-27 23:58:11 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 115 is Valid - Tyrell@abdullah.ca
+2020-01-27 23:58:11 INFO  IntegrationTestsCommentsValidations:60 - Retrieving CommentIds for PostID - 24
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:86 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:94 - Request URI : http://jsonplaceholder.typicode.com/comments?postId=24
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:95 - Request Query Parameters : {postId=24}
+2020-01-27 23:58:11 INFO  CommentsBusinessLogic:96 - Request Body : null
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:101 - Response Data : [
+  {
+    "postId": 24,
+    "id": 116,
+    "name": "veritatis sit tempora quasi fuga aut dolorum",
+    "email": "Reyes@hailey.name",
+    "body": "quia voluptas qui assumenda nesciunt harum iusto\nest corrupti aperiam\nut aut unde maxime consequatur eligendi\nveniam modi id sint rem labore saepe minus"
+  },
+  {
+    "postId": 24,
+    "id": 117,
+    "name": "incidunt quae optio quam corporis iste deleniti accusantium vero",
+    "email": "Danika.Dicki@mekhi.biz",
+    "body": "doloribus esse necessitatibus qui eos et ut est saepe\nsed rerum tempore est ut\nquisquam et eligendi accusantium\ncommodi non doloribus"
+  },
+  {
+    "postId": 24,
+    "id": 118,
+    "name": "quisquam laborum reiciendis aut",
+    "email": "Alessandra.Nitzsche@stephania.us",
+    "body": "repudiandae aliquam maxime cupiditate consequatur id\nquas error repellendus\ntotam officia dolorem beatae natus cum exercitationem\nasperiores dolor ea"
+  },
+  {
+    "postId": 24,
+    "id": 119,
+    "name": "minus pariatur odit",
+    "email": "Matteo@marquis.net",
+    "body": "et omnis consequatur ut\nin suscipit et voluptatem\nanimi at ut\ndolores quos aut numquam esse praesentium aut placeat nam"
+  },
+  {
+    "postId": 24,
+    "id": 120,
+    "name": "harum error sit",
+    "email": "Joshua.Spinka@toby.io",
+    "body": "iusto sint recusandae placeat atque perferendis sit corporis molestiae\nrem dolor eius id delectus et qui\nsed dolorem reiciendis error ullam corporis delectus\nexplicabo mollitia odit laborum sed itaque deserunt rem dolorem"
+  }
+]
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:114 - Response code for the request - 200
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:123 - Comment Ids of the PostId - 24 is/are [116, 117, 118, 119, 120]
+2020-01-27 23:58:12 INFO  IntegrationTestsCommentsValidations:65 - CommentIds detail retrieved.
+2020-01-27 23:58:12 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 116
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=116
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=116}
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 24,
+    "id": 116,
+    "name": "veritatis sit tempora quasi fuga aut dolorum",
+    "email": "Reyes@hailey.name",
+    "body": "quia voluptas qui assumenda nesciunt harum iusto\nest corrupti aperiam\nut aut unde maxime consequatur eligendi\nveniam modi id sint rem labore saepe minus"
+  }
+]
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 116 is/are Reyes@hailey.name
+2020-01-27 23:58:12 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 116 is Valid - Reyes@hailey.name
+2020-01-27 23:58:12 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 117
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=117
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=117}
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 24,
+    "id": 117,
+    "name": "incidunt quae optio quam corporis iste deleniti accusantium vero",
+    "email": "Danika.Dicki@mekhi.biz",
+    "body": "doloribus esse necessitatibus qui eos et ut est saepe\nsed rerum tempore est ut\nquisquam et eligendi accusantium\ncommodi non doloribus"
+  }
+]
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 117 is/are Danika.Dicki@mekhi.biz
+2020-01-27 23:58:12 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 117 is Valid - Danika.Dicki@mekhi.biz
+2020-01-27 23:58:12 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 118
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=118
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=118}
+2020-01-27 23:58:12 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 24,
+    "id": 118,
+    "name": "quisquam laborum reiciendis aut",
+    "email": "Alessandra.Nitzsche@stephania.us",
+    "body": "repudiandae aliquam maxime cupiditate consequatur id\nquas error repellendus\ntotam officia dolorem beatae natus cum exercitationem\nasperiores dolor ea"
+  }
+]
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 118 is/are Alessandra.Nitzsche@stephania.us
+2020-01-27 23:58:13 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 118 is Valid - Alessandra.Nitzsche@stephania.us
+2020-01-27 23:58:13 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 119
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=119
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=119}
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 24,
+    "id": 119,
+    "name": "minus pariatur odit",
+    "email": "Matteo@marquis.net",
+    "body": "et omnis consequatur ut\nin suscipit et voluptatem\nanimi at ut\ndolores quos aut numquam esse praesentium aut placeat nam"
+  }
+]
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 119 is/are Matteo@marquis.net
+2020-01-27 23:58:13 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 119 is Valid - Matteo@marquis.net
+2020-01-27 23:58:13 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 120
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=120
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=120}
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 24,
+    "id": 120,
+    "name": "harum error sit",
+    "email": "Joshua.Spinka@toby.io",
+    "body": "iusto sint recusandae placeat atque perferendis sit corporis molestiae\nrem dolor eius id delectus et qui\nsed dolorem reiciendis error ullam corporis delectus\nexplicabo mollitia odit laborum sed itaque deserunt rem dolorem"
+  }
+]
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 120 is/are Joshua.Spinka@toby.io
+2020-01-27 23:58:13 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 120 is Valid - Joshua.Spinka@toby.io
+2020-01-27 23:58:13 INFO  IntegrationTestsCommentsValidations:60 - Retrieving CommentIds for PostID - 25
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:86 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:94 - Request URI : http://jsonplaceholder.typicode.com/comments?postId=25
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:95 - Request Query Parameters : {postId=25}
+2020-01-27 23:58:13 INFO  CommentsBusinessLogic:96 - Request Body : null
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:101 - Response Data : [
+  {
+    "postId": 25,
+    "id": 121,
+    "name": "deleniti quo corporis ullam magni praesentium molestiae",
+    "email": "Annabelle@cole.com",
+    "body": "soluta mollitia impedit cumque nostrum tempore aut placeat repellat\nenim adipisci dolores aut ut ratione laboriosam necessitatibus vel\net blanditiis est iste sapiente qui atque repellendus alias\nearum consequuntur quia quasi quia"
+  },
+  {
+    "postId": 25,
+    "id": 122,
+    "name": "nihil tempora et reiciendis modi veniam",
+    "email": "Kacey@jamal.info",
+    "body": "doloribus veritatis a et quis corrupti incidunt est\nharum maiores impedit et beatae qui velit et aut\nporro sed dignissimos deserunt deleniti\net eveniet voluptas ipsa pariatur rem ducimus"
+  },
+  {
+    "postId": 25,
+    "id": 123,
+    "name": "ad eos explicabo odio velit",
+    "email": "Mina@mallie.name",
+    "body": "nostrum perspiciatis doloribus\nexplicabo soluta id libero illo iste et\nab expedita error aliquam eum sint ipsum\nmodi possimus et"
+  },
+  {
+    "postId": 25,
+    "id": 124,
+    "name": "nostrum suscipit aut consequatur magnam sunt fuga nihil",
+    "email": "Hudson.Blick@ruben.biz",
+    "body": "ut ut eius qui explicabo quis\niste autem nulla beatae tenetur enim\nassumenda explicabo consequatur harum exercitationem\nvelit itaque consectetur et possimus"
+  },
+  {
+    "postId": 25,
+    "id": 125,
+    "name": "porro et voluptate et reprehenderit",
+    "email": "Domenic.Durgan@joaquin.name",
+    "body": "aut voluptas dolore autem\nreprehenderit expedita et nihil pariatur ea animi quo ullam\na ea officiis corporis\neius voluptatum cum mollitia dolore quaerat accusamus"
+  }
+]
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:114 - Response code for the request - 200
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:123 - Comment Ids of the PostId - 25 is/are [121, 122, 123, 124, 125]
+2020-01-27 23:58:14 INFO  IntegrationTestsCommentsValidations:65 - CommentIds detail retrieved.
+2020-01-27 23:58:14 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 121
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=121
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=121}
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 25,
+    "id": 121,
+    "name": "deleniti quo corporis ullam magni praesentium molestiae",
+    "email": "Annabelle@cole.com",
+    "body": "soluta mollitia impedit cumque nostrum tempore aut placeat repellat\nenim adipisci dolores aut ut ratione laboriosam necessitatibus vel\net blanditiis est iste sapiente qui atque repellendus alias\nearum consequuntur quia quasi quia"
+  }
+]
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 121 is/are Annabelle@cole.com
+2020-01-27 23:58:14 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 121 is Valid - Annabelle@cole.com
+2020-01-27 23:58:14 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 122
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=122
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=122}
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 25,
+    "id": 122,
+    "name": "nihil tempora et reiciendis modi veniam",
+    "email": "Kacey@jamal.info",
+    "body": "doloribus veritatis a et quis corrupti incidunt est\nharum maiores impedit et beatae qui velit et aut\nporro sed dignissimos deserunt deleniti\net eveniet voluptas ipsa pariatur rem ducimus"
+  }
+]
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 122 is/are Kacey@jamal.info
+2020-01-27 23:58:14 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 122 is Valid - Kacey@jamal.info
+2020-01-27 23:58:14 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 123
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=123
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=123}
+2020-01-27 23:58:14 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 25,
+    "id": 123,
+    "name": "ad eos explicabo odio velit",
+    "email": "Mina@mallie.name",
+    "body": "nostrum perspiciatis doloribus\nexplicabo soluta id libero illo iste et\nab expedita error aliquam eum sint ipsum\nmodi possimus et"
+  }
+]
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 123 is/are Mina@mallie.name
+2020-01-27 23:58:15 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 123 is Valid - Mina@mallie.name
+2020-01-27 23:58:15 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 124
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=124
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=124}
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 25,
+    "id": 124,
+    "name": "nostrum suscipit aut consequatur magnam sunt fuga nihil",
+    "email": "Hudson.Blick@ruben.biz",
+    "body": "ut ut eius qui explicabo quis\niste autem nulla beatae tenetur enim\nassumenda explicabo consequatur harum exercitationem\nvelit itaque consectetur et possimus"
+  }
+]
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 124 is/are Hudson.Blick@ruben.biz
+2020-01-27 23:58:15 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 124 is Valid - Hudson.Blick@ruben.biz
+2020-01-27 23:58:15 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 125
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=125
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=125}
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 25,
+    "id": 125,
+    "name": "porro et voluptate et reprehenderit",
+    "email": "Domenic.Durgan@joaquin.name",
+    "body": "aut voluptas dolore autem\nreprehenderit expedita et nihil pariatur ea animi quo ullam\na ea officiis corporis\neius voluptatum cum mollitia dolore quaerat accusamus"
+  }
+]
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 125 is/are Domenic.Durgan@joaquin.name
+2020-01-27 23:58:15 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 125 is Valid - Domenic.Durgan@joaquin.name
+2020-01-27 23:58:15 INFO  IntegrationTestsCommentsValidations:60 - Retrieving CommentIds for PostID - 26
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:86 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:94 - Request URI : http://jsonplaceholder.typicode.com/comments?postId=26
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:95 - Request Query Parameters : {postId=26}
+2020-01-27 23:58:15 INFO  CommentsBusinessLogic:96 - Request Body : null
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:101 - Response Data : [
+  {
+    "postId": 26,
+    "id": 126,
+    "name": "fuga tenetur id et qui labore delectus",
+    "email": "Alexie@alayna.org",
+    "body": "est qui ut tempore temporibus pariatur provident qui consequuntur\nlaboriosam porro dignissimos quos debitis id laborum et totam\naut eius sequi dolor maiores amet\nrerum voluptatibus quod ratione quos labore fuga sit"
+  },
+  {
+    "postId": 26,
+    "id": 127,
+    "name": "consequatur harum magnam",
+    "email": "Haven_Barrows@brant.org",
+    "body": "omnis consequatur dignissimos iure rerum odio\nculpa laudantium quia voluptas enim est nisi\ndoloremque consequatur autem officiis necessitatibus beatae et\net itaque animi dolor praesentium"
+  },
+  {
+    "postId": 26,
+    "id": 128,
+    "name": "labore architecto quaerat tempora voluptas consequuntur animi",
+    "email": "Marianne@maximo.us",
+    "body": "exercitationem eius aut ullam vero\nimpedit similique maiores ea et in culpa possimus omnis\neos labore autem quam repellendus dolores deserunt voluptatem\nnon ullam eos accusamus"
+  },
+  {
+    "postId": 26,
+    "id": 129,
+    "name": "deleniti facere tempore et perspiciatis voluptas quis voluptatem",
+    "email": "Fanny@danial.com",
+    "body": "fugit minima voluptatem est aut sed explicabo\nharum dolores at qui eaque\nmagni velit ut et\nnam et ut sunt excepturi repellat non commodi"
+  },
+  {
+    "postId": 26,
+    "id": 130,
+    "name": "quod est non quia doloribus quam deleniti libero",
+    "email": "Trevion_Kuphal@bernice.name",
+    "body": "dicta sit culpa molestiae quasi at voluptate eos\ndolorem perferendis accusamus rerum expedita ipsum quis qui\nquos est deserunt\nrerum fuga qui aliquam in consequatur aspernatur"
+  }
+]
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:114 - Response code for the request - 200
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:123 - Comment Ids of the PostId - 26 is/are [126, 127, 128, 129, 130]
+2020-01-27 23:58:16 INFO  IntegrationTestsCommentsValidations:65 - CommentIds detail retrieved.
+2020-01-27 23:58:16 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 126
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=126
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=126}
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 26,
+    "id": 126,
+    "name": "fuga tenetur id et qui labore delectus",
+    "email": "Alexie@alayna.org",
+    "body": "est qui ut tempore temporibus pariatur provident qui consequuntur\nlaboriosam porro dignissimos quos debitis id laborum et totam\naut eius sequi dolor maiores amet\nrerum voluptatibus quod ratione quos labore fuga sit"
+  }
+]
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 126 is/are Alexie@alayna.org
+2020-01-27 23:58:16 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 126 is Valid - Alexie@alayna.org
+2020-01-27 23:58:16 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 127
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=127
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=127}
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 26,
+    "id": 127,
+    "name": "consequatur harum magnam",
+    "email": "Haven_Barrows@brant.org",
+    "body": "omnis consequatur dignissimos iure rerum odio\nculpa laudantium quia voluptas enim est nisi\ndoloremque consequatur autem officiis necessitatibus beatae et\net itaque animi dolor praesentium"
+  }
+]
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 127 is/are Haven_Barrows@brant.org
+2020-01-27 23:58:16 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 127 is Valid - Haven_Barrows@brant.org
+2020-01-27 23:58:16 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 128
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=128
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=128}
+2020-01-27 23:58:16 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 26,
+    "id": 128,
+    "name": "labore architecto quaerat tempora voluptas consequuntur animi",
+    "email": "Marianne@maximo.us",
+    "body": "exercitationem eius aut ullam vero\nimpedit similique maiores ea et in culpa possimus omnis\neos labore autem quam repellendus dolores deserunt voluptatem\nnon ullam eos accusamus"
+  }
+]
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 128 is/are Marianne@maximo.us
+2020-01-27 23:58:17 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 128 is Valid - Marianne@maximo.us
+2020-01-27 23:58:17 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 129
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=129
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=129}
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 26,
+    "id": 129,
+    "name": "deleniti facere tempore et perspiciatis voluptas quis voluptatem",
+    "email": "Fanny@danial.com",
+    "body": "fugit minima voluptatem est aut sed explicabo\nharum dolores at qui eaque\nmagni velit ut et\nnam et ut sunt excepturi repellat non commodi"
+  }
+]
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 129 is/are Fanny@danial.com
+2020-01-27 23:58:17 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 129 is Valid - Fanny@danial.com
+2020-01-27 23:58:17 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 130
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=130
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=130}
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 26,
+    "id": 130,
+    "name": "quod est non quia doloribus quam deleniti libero",
+    "email": "Trevion_Kuphal@bernice.name",
+    "body": "dicta sit culpa molestiae quasi at voluptate eos\ndolorem perferendis accusamus rerum expedita ipsum quis qui\nquos est deserunt\nrerum fuga qui aliquam in consequatur aspernatur"
+  }
+]
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 130 is/are Trevion_Kuphal@bernice.name
+2020-01-27 23:58:17 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 130 is Valid - Trevion_Kuphal@bernice.name
+2020-01-27 23:58:17 INFO  IntegrationTestsCommentsValidations:60 - Retrieving CommentIds for PostID - 27
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:86 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:94 - Request URI : http://jsonplaceholder.typicode.com/comments?postId=27
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:95 - Request Query Parameters : {postId=27}
+2020-01-27 23:58:17 INFO  CommentsBusinessLogic:96 - Request Body : null
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:101 - Response Data : [
+  {
+    "postId": 27,
+    "id": 131,
+    "name": "voluptas quasi sunt laboriosam",
+    "email": "Emmet@guy.biz",
+    "body": "rem magnam at voluptatem\naspernatur et et nostrum rerum\ndignissimos eum quibusdam\noptio quod dolores et"
+  },
+  {
+    "postId": 27,
+    "id": 132,
+    "name": "unde tenetur vero eum iusto",
+    "email": "Megane.Fritsch@claude.name",
+    "body": "ullam harum consequatur est rerum est\nmagni tenetur aperiam et\nrepudiandae et reprehenderit dolorum enim voluptas impedit\neligendi quis necessitatibus in exercitationem voluptatem qui"
+  },
+  {
+    "postId": 27,
+    "id": 133,
+    "name": "est adipisci laudantium amet rem asperiores",
+    "email": "Amya@durward.ca",
+    "body": "sunt quis iure molestias qui ipsa commodi dolore a\nodio qui debitis earum\nunde ut omnis\ndoloremque corrupti at repellendus earum eum"
+  },
+  {
+    "postId": 27,
+    "id": 134,
+    "name": "reiciendis quo est vitae dignissimos libero ut officiis fugiat",
+    "email": "Jasen_Rempel@willis.org",
+    "body": "corrupti perspiciatis eligendi\net omnis tempora nobis dolores hic\ndolorum vitae odit\nreiciendis sunt odit qui"
+  },
+  {
+    "postId": 27,
+    "id": 135,
+    "name": "inventore fugiat dignissimos",
+    "email": "Harmony@reggie.com",
+    "body": "sapiente nostrum dolorem odit a\nsed animi non architecto doloremque unde\nnam aut aut ut facilis\net ut autem fugit minima culpa inventore non"
+  }
+]
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:114 - Response code for the request - 200
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:123 - Comment Ids of the PostId - 27 is/are [131, 132, 133, 134, 135]
+2020-01-27 23:58:18 INFO  IntegrationTestsCommentsValidations:65 - CommentIds detail retrieved.
+2020-01-27 23:58:18 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 131
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=131
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=131}
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 27,
+    "id": 131,
+    "name": "voluptas quasi sunt laboriosam",
+    "email": "Emmet@guy.biz",
+    "body": "rem magnam at voluptatem\naspernatur et et nostrum rerum\ndignissimos eum quibusdam\noptio quod dolores et"
+  }
+]
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 131 is/are Emmet@guy.biz
+2020-01-27 23:58:18 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 131 is Valid - Emmet@guy.biz
+2020-01-27 23:58:18 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 132
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=132
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=132}
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 27,
+    "id": 132,
+    "name": "unde tenetur vero eum iusto",
+    "email": "Megane.Fritsch@claude.name",
+    "body": "ullam harum consequatur est rerum est\nmagni tenetur aperiam et\nrepudiandae et reprehenderit dolorum enim voluptas impedit\neligendi quis necessitatibus in exercitationem voluptatem qui"
+  }
+]
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 132 is/are Megane.Fritsch@claude.name
+2020-01-27 23:58:18 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 132 is Valid - Megane.Fritsch@claude.name
+2020-01-27 23:58:18 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 133
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=133
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=133}
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 27,
+    "id": 133,
+    "name": "est adipisci laudantium amet rem asperiores",
+    "email": "Amya@durward.ca",
+    "body": "sunt quis iure molestias qui ipsa commodi dolore a\nodio qui debitis earum\nunde ut omnis\ndoloremque corrupti at repellendus earum eum"
+  }
+]
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 133 is/are Amya@durward.ca
+2020-01-27 23:58:18 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 133 is Valid - Amya@durward.ca
+2020-01-27 23:58:18 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 134
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=134
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=134}
+2020-01-27 23:58:18 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 27,
+    "id": 134,
+    "name": "reiciendis quo est vitae dignissimos libero ut officiis fugiat",
+    "email": "Jasen_Rempel@willis.org",
+    "body": "corrupti perspiciatis eligendi\net omnis tempora nobis dolores hic\ndolorum vitae odit\nreiciendis sunt odit qui"
+  }
+]
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 134 is/are Jasen_Rempel@willis.org
+2020-01-27 23:58:19 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 134 is Valid - Jasen_Rempel@willis.org
+2020-01-27 23:58:19 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 135
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=135
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=135}
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 27,
+    "id": 135,
+    "name": "inventore fugiat dignissimos",
+    "email": "Harmony@reggie.com",
+    "body": "sapiente nostrum dolorem odit a\nsed animi non architecto doloremque unde\nnam aut aut ut facilis\net ut autem fugit minima culpa inventore non"
+  }
+]
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 135 is/are Harmony@reggie.com
+2020-01-27 23:58:19 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 135 is Valid - Harmony@reggie.com
+2020-01-27 23:58:19 INFO  IntegrationTestsCommentsValidations:60 - Retrieving CommentIds for PostID - 28
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:86 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:94 - Request URI : http://jsonplaceholder.typicode.com/comments?postId=28
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:95 - Request Query Parameters : {postId=28}
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:96 - Request Body : null
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:101 - Response Data : [
+  {
+    "postId": 28,
+    "id": 136,
+    "name": "et expedita est odit",
+    "email": "Rosanna_Kunze@guy.net",
+    "body": "cum natus qui dolorem dolorum nihil ut nam tempore\nmodi nesciunt ipsum hic\nrem sunt possimus earum magnam similique aspernatur sed\ntotam sed voluptatem iusto id iste qui"
+  },
+  {
+    "postId": 28,
+    "id": 137,
+    "name": "saepe dolore qui tempore nihil perspiciatis omnis omnis magni",
+    "email": "Ressie.Boehm@flossie.com",
+    "body": "reiciendis maiores id\nvoluptas sapiente deserunt itaque\nut omnis sunt\nnecessitatibus quibusdam dolorem voluptatem harum error"
+  },
+  {
+    "postId": 28,
+    "id": 138,
+    "name": "ea optio nesciunt officia velit enim facilis commodi",
+    "email": "Domenic.Wuckert@jazmyne.us",
+    "body": "dolorem suscipit adipisci ad cum totam quia fugiat\nvel quia dolores molestiae eos\nomnis officia quidem quaerat alias vel distinctio\nvero provident et corporis a quia ut"
+  },
+  {
+    "postId": 28,
+    "id": 139,
+    "name": "ut pariatur voluptate possimus quasi",
+    "email": "Rhett.OKon@brian.info",
+    "body": "facilis cumque nostrum dignissimos\ndoloremque saepe quia adipisci sunt\ndicta dolorum quo esse\nculpa iste ut asperiores cum aperiam"
+  },
+  {
+    "postId": 28,
+    "id": 140,
+    "name": "consectetur tempore eum consequuntur",
+    "email": "Mathias@richmond.info",
+    "body": "velit ipsa fugiat sit qui vel nesciunt sapiente\nrepudiandae perferendis nemo eos quos perspiciatis aperiam\ndoloremque incidunt nostrum temporibus corrupti repudiandae vitae non corporis\ncupiditate suscipit quod sed numquam excepturi enim labore"
+  }
+]
+2020-01-27 23:58:19 INFO  CommentsBusinessLogic:114 - Response code for the request - 200
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:123 - Comment Ids of the PostId - 28 is/are [136, 137, 138, 139, 140]
+2020-01-27 23:58:20 INFO  IntegrationTestsCommentsValidations:65 - CommentIds detail retrieved.
+2020-01-27 23:58:20 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 136
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=136
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=136}
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 28,
+    "id": 136,
+    "name": "et expedita est odit",
+    "email": "Rosanna_Kunze@guy.net",
+    "body": "cum natus qui dolorem dolorum nihil ut nam tempore\nmodi nesciunt ipsum hic\nrem sunt possimus earum magnam similique aspernatur sed\ntotam sed voluptatem iusto id iste qui"
+  }
+]
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 136 is/are Rosanna_Kunze@guy.net
+2020-01-27 23:58:20 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 136 is Valid - Rosanna_Kunze@guy.net
+2020-01-27 23:58:20 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 137
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=137
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=137}
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 28,
+    "id": 137,
+    "name": "saepe dolore qui tempore nihil perspiciatis omnis omnis magni",
+    "email": "Ressie.Boehm@flossie.com",
+    "body": "reiciendis maiores id\nvoluptas sapiente deserunt itaque\nut omnis sunt\nnecessitatibus quibusdam dolorem voluptatem harum error"
+  }
+]
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 137 is/are Ressie.Boehm@flossie.com
+2020-01-27 23:58:20 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 137 is Valid - Ressie.Boehm@flossie.com
+2020-01-27 23:58:20 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 138
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=138
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=138}
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 28,
+    "id": 138,
+    "name": "ea optio nesciunt officia velit enim facilis commodi",
+    "email": "Domenic.Wuckert@jazmyne.us",
+    "body": "dolorem suscipit adipisci ad cum totam quia fugiat\nvel quia dolores molestiae eos\nomnis officia quidem quaerat alias vel distinctio\nvero provident et corporis a quia ut"
+  }
+]
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 138 is/are Domenic.Wuckert@jazmyne.us
+2020-01-27 23:58:20 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 138 is Valid - Domenic.Wuckert@jazmyne.us
+2020-01-27 23:58:20 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 139
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=139
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=139}
+2020-01-27 23:58:20 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 28,
+    "id": 139,
+    "name": "ut pariatur voluptate possimus quasi",
+    "email": "Rhett.OKon@brian.info",
+    "body": "facilis cumque nostrum dignissimos\ndoloremque saepe quia adipisci sunt\ndicta dolorum quo esse\nculpa iste ut asperiores cum aperiam"
+  }
+]
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 139 is/are Rhett.OKon@brian.info
+2020-01-27 23:58:21 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 139 is Valid - Rhett.OKon@brian.info
+2020-01-27 23:58:21 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 140
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=140
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=140}
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 28,
+    "id": 140,
+    "name": "consectetur tempore eum consequuntur",
+    "email": "Mathias@richmond.info",
+    "body": "velit ipsa fugiat sit qui vel nesciunt sapiente\nrepudiandae perferendis nemo eos quos perspiciatis aperiam\ndoloremque incidunt nostrum temporibus corrupti repudiandae vitae non corporis\ncupiditate suscipit quod sed numquam excepturi enim labore"
+  }
+]
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 140 is/are Mathias@richmond.info
+2020-01-27 23:58:21 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 140 is Valid - Mathias@richmond.info
+2020-01-27 23:58:21 INFO  IntegrationTestsCommentsValidations:60 - Retrieving CommentIds for PostID - 29
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:86 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:94 - Request URI : http://jsonplaceholder.typicode.com/comments?postId=29
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:95 - Request Query Parameters : {postId=29}
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:96 - Request Body : null
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:101 - Response Data : [
+  {
+    "postId": 29,
+    "id": 141,
+    "name": "dignissimos perspiciatis voluptate quos rem qui temporibus excepturi",
+    "email": "Ottis@lourdes.org",
+    "body": "et ullam id eligendi rem sit\noccaecati et delectus in nemo\naut veritatis deserunt aspernatur dolor enim voluptas quos consequatur\nmolestiae temporibus error"
+  },
+  {
+    "postId": 29,
+    "id": 142,
+    "name": "cum dolore sit quisquam provident nostrum vitae",
+    "email": "Estel@newton.ca",
+    "body": "cumque voluptas quo eligendi sit\nnemo ut ut dolor et cupiditate aut\net voluptatem quia aut maiores quas accusantium expedita quia\nbeatae aut ad quis soluta id dolorum"
+  },
+  {
+    "postId": 29,
+    "id": 143,
+    "name": "velit molestiae assumenda perferendis voluptas explicabo",
+    "email": "Bertha@erik.co.uk",
+    "body": "est quasi maiores nisi reiciendis enim\ndolores minus facilis laudantium dignissimos\nreiciendis et facere occaecati dolores et\npossimus et vel et aut ipsa ad"
+  },
+  {
+    "postId": 29,
+    "id": 144,
+    "name": "earum ipsum ea quas qui molestiae omnis unde",
+    "email": "Joesph@matteo.info",
+    "body": "voluptatem unde consequatur natus nostrum vel ut\nconsequatur sequi doloremque omnis dolorem maxime\neaque sunt excepturi\nfuga qui illum et accusamus"
+  },
+  {
+    "postId": 29,
+    "id": 145,
+    "name": "magni iusto sit",
+    "email": "Alva@cassandre.net",
+    "body": "assumenda nihil et\nsed nulla tempora porro iste possimus aut sit officia\ncumque totam quis tenetur qui sequi\ndelectus aut sunt"
+  }
+]
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:114 - Response code for the request - 200
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:123 - Comment Ids of the PostId - 29 is/are [141, 142, 143, 144, 145]
+2020-01-27 23:58:21 INFO  IntegrationTestsCommentsValidations:65 - CommentIds detail retrieved.
+2020-01-27 23:58:21 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 141
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=141
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=141}
+2020-01-27 23:58:21 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 29,
+    "id": 141,
+    "name": "dignissimos perspiciatis voluptate quos rem qui temporibus excepturi",
+    "email": "Ottis@lourdes.org",
+    "body": "et ullam id eligendi rem sit\noccaecati et delectus in nemo\naut veritatis deserunt aspernatur dolor enim voluptas quos consequatur\nmolestiae temporibus error"
+  }
+]
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 141 is/are Ottis@lourdes.org
+2020-01-27 23:58:22 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 141 is Valid - Ottis@lourdes.org
+2020-01-27 23:58:22 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 142
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=142
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=142}
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 29,
+    "id": 142,
+    "name": "cum dolore sit quisquam provident nostrum vitae",
+    "email": "Estel@newton.ca",
+    "body": "cumque voluptas quo eligendi sit\nnemo ut ut dolor et cupiditate aut\net voluptatem quia aut maiores quas accusantium expedita quia\nbeatae aut ad quis soluta id dolorum"
+  }
+]
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 142 is/are Estel@newton.ca
+2020-01-27 23:58:22 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 142 is Valid - Estel@newton.ca
+2020-01-27 23:58:22 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 143
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=143
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=143}
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 29,
+    "id": 143,
+    "name": "velit molestiae assumenda perferendis voluptas explicabo",
+    "email": "Bertha@erik.co.uk",
+    "body": "est quasi maiores nisi reiciendis enim\ndolores minus facilis laudantium dignissimos\nreiciendis et facere occaecati dolores et\npossimus et vel et aut ipsa ad"
+  }
+]
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 143 is/are Bertha@erik.co.uk
+2020-01-27 23:58:22 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 143 is Valid - Bertha@erik.co.uk
+2020-01-27 23:58:22 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 144
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=144
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=144}
+2020-01-27 23:58:22 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 29,
+    "id": 144,
+    "name": "earum ipsum ea quas qui molestiae omnis unde",
+    "email": "Joesph@matteo.info",
+    "body": "voluptatem unde consequatur natus nostrum vel ut\nconsequatur sequi doloremque omnis dolorem maxime\neaque sunt excepturi\nfuga qui illum et accusamus"
+  }
+]
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 144 is/are Joesph@matteo.info
+2020-01-27 23:58:23 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 144 is Valid - Joesph@matteo.info
+2020-01-27 23:58:23 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 145
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=145
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=145}
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 29,
+    "id": 145,
+    "name": "magni iusto sit",
+    "email": "Alva@cassandre.net",
+    "body": "assumenda nihil et\nsed nulla tempora porro iste possimus aut sit officia\ncumque totam quis tenetur qui sequi\ndelectus aut sunt"
+  }
+]
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 145 is/are Alva@cassandre.net
+2020-01-27 23:58:23 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 145 is Valid - Alva@cassandre.net
+2020-01-27 23:58:23 INFO  IntegrationTestsCommentsValidations:60 - Retrieving CommentIds for PostID - 30
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:86 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:94 - Request URI : http://jsonplaceholder.typicode.com/comments?postId=30
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:95 - Request Query Parameters : {postId=30}
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:96 - Request Body : null
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:101 - Response Data : [
+  {
+    "postId": 30,
+    "id": 146,
+    "name": "est qui debitis",
+    "email": "Vivienne@willis.org",
+    "body": "possimus necessitatibus quis\net dicta omnis voluptatem ea est\nsuscipit eum soluta in quia corrupti hic iusto\nconsequatur est aut qui earum nisi officiis sed culpa"
+  },
+  {
+    "postId": 30,
+    "id": 147,
+    "name": "reiciendis et consectetur officiis beatae corrupti aperiam",
+    "email": "Angelita@aliza.me",
+    "body": "nihil aspernatur consequatur voluptatem facere sed fugiat ullam\nbeatae accusamus et fuga maxime vero\nomnis necessitatibus quisquam ipsum consectetur incidunt repellat voluptas\nerror quo et ab magnam quisquam"
+  },
+  {
+    "postId": 30,
+    "id": 148,
+    "name": "iusto reprehenderit voluptatem modi",
+    "email": "Timmothy_Okuneva@alyce.tv",
+    "body": "nemo corporis quidem eius aut dolores\nitaque rerum quo occaecati mollitia incidunt\nautem est saepe nulla nobis a id\ndolore facilis placeat molestias in fugiat aliquam excepturi"
+  },
+  {
+    "postId": 30,
+    "id": 149,
+    "name": "optio dolorem et reiciendis et recusandae quidem",
+    "email": "Moriah_Welch@richmond.org",
+    "body": "veniam est distinctio\nnihil quia eos sed\ndistinctio hic ut sint ducimus debitis dolorem voluptatum assumenda\neveniet ea perspiciatis"
+  },
+  {
+    "postId": 30,
+    "id": 150,
+    "name": "id saepe numquam est facilis sint enim voluptas voluptatem",
+    "email": "Ramiro_Kuhn@harmon.biz",
+    "body": "est non atque eligendi aspernatur quidem earum mollitia\nminima neque nam exercitationem provident eum\nmaxime quo et ut illum sequi aut fuga repudiandae\nsapiente sed ea distinctio molestias illum consequatur libero quidem"
+  }
+]
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:114 - Response code for the request - 200
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:123 - Comment Ids of the PostId - 30 is/are [146, 147, 148, 149, 150]
+2020-01-27 23:58:23 INFO  IntegrationTestsCommentsValidations:65 - CommentIds detail retrieved.
+2020-01-27 23:58:23 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 146
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=146
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=146}
+2020-01-27 23:58:23 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 30,
+    "id": 146,
+    "name": "est qui debitis",
+    "email": "Vivienne@willis.org",
+    "body": "possimus necessitatibus quis\net dicta omnis voluptatem ea est\nsuscipit eum soluta in quia corrupti hic iusto\nconsequatur est aut qui earum nisi officiis sed culpa"
+  }
+]
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 146 is/are Vivienne@willis.org
+2020-01-27 23:58:24 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 146 is Valid - Vivienne@willis.org
+2020-01-27 23:58:24 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 147
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=147
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=147}
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 30,
+    "id": 147,
+    "name": "reiciendis et consectetur officiis beatae corrupti aperiam",
+    "email": "Angelita@aliza.me",
+    "body": "nihil aspernatur consequatur voluptatem facere sed fugiat ullam\nbeatae accusamus et fuga maxime vero\nomnis necessitatibus quisquam ipsum consectetur incidunt repellat voluptas\nerror quo et ab magnam quisquam"
+  }
+]
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 147 is/are Angelita@aliza.me
+2020-01-27 23:58:24 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 147 is Valid - Angelita@aliza.me
+2020-01-27 23:58:24 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 148
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=148
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=148}
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 30,
+    "id": 148,
+    "name": "iusto reprehenderit voluptatem modi",
+    "email": "Timmothy_Okuneva@alyce.tv",
+    "body": "nemo corporis quidem eius aut dolores\nitaque rerum quo occaecati mollitia incidunt\nautem est saepe nulla nobis a id\ndolore facilis placeat molestias in fugiat aliquam excepturi"
+  }
+]
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 148 is/are Timmothy_Okuneva@alyce.tv
+2020-01-27 23:58:24 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 148 is Valid - Timmothy_Okuneva@alyce.tv
+2020-01-27 23:58:24 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 149
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=149
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=149}
+2020-01-27 23:58:24 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:25 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 30,
+    "id": 149,
+    "name": "optio dolorem et reiciendis et recusandae quidem",
+    "email": "Moriah_Welch@richmond.org",
+    "body": "veniam est distinctio\nnihil quia eos sed\ndistinctio hic ut sint ducimus debitis dolorem voluptatum assumenda\neveniet ea perspiciatis"
+  }
+]
+2020-01-27 23:58:25 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:25 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 149 is/are Moriah_Welch@richmond.org
+2020-01-27 23:58:25 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 149 is Valid - Moriah_Welch@richmond.org
+2020-01-27 23:58:25 INFO  IntegrationTestsCommentsValidations:76 - Retrieving Email for CommentId - 150
+2020-01-27 23:58:25 INFO  CommentsBusinessLogic:34 - Reading properties for Request - URL and Paths
+2020-01-27 23:58:25 INFO  CommentsBusinessLogic:43 - Request URI : http://jsonplaceholder.typicode.com/comments?id=150
+2020-01-27 23:58:25 INFO  CommentsBusinessLogic:44 - Request Query Parameters : {id=150}
+2020-01-27 23:58:25 INFO  CommentsBusinessLogic:45 - Request Body : null
+2020-01-27 23:58:25 INFO  CommentsBusinessLogic:50 - Response Data : [
+  {
+    "postId": 30,
+    "id": 150,
+    "name": "id saepe numquam est facilis sint enim voluptas voluptatem",
+    "email": "Ramiro_Kuhn@harmon.biz",
+    "body": "est non atque eligendi aspernatur quidem earum mollitia\nminima neque nam exercitationem provident eum\nmaxime quo et ut illum sequi aut fuga repudiandae\nsapiente sed ea distinctio molestias illum consequatur libero quidem"
+  }
+]
+2020-01-27 23:58:25 INFO  CommentsBusinessLogic:63 - Response code for the request - 200
+2020-01-27 23:58:25 INFO  CommentsBusinessLogic:72 - Emails for Comment Id - 150 is/are Ramiro_Kuhn@harmon.biz
+2020-01-27 23:58:25 INFO  IntegrationTestsCommentsValidations:84 - Email for CommentId 150 is Valid - Ramiro_Kuhn@harmon.biz
+2020-01-27 23:58:25 INFO  RATestListener:20 - ************ FINISHED EXECUTION OF TEST METHOD  testValidateCommentsEmailByUserName ************
+2020-01-27 23:58:25 INFO  RATestListener:51 - ************ FINISHED EXECUTION OF TEST IntegrationTests ************
