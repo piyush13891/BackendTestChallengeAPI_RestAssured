@@ -26,7 +26,7 @@ public class DataProviderClass {
 	{
 		Yaml yaml = new Yaml();
 		AllTestCaseData allTestCaseData = null; 
-		String testCasePath = ".\\src\\test\\resources\\testdata\\all_test_data.yaml";
+		String testCasePath = ".//src//test//resources//testdata//all_test_data.yaml";
 		
 		LOGGER.info("Test data file path - " +  testCasePath);
 		
